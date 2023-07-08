@@ -1,0 +1,163 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar section design start */
+menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px 0px 40px;
+}
+.navbar li{
+  list-style-type: none;
+  margin: 0px 20px;
+  display: inline;
+  font-size:16px;
+  color:gray;
+  cursor: pointer;
+}
+.navbar li:hover{
+    border-bottom: 4px solid #FF724A;
+    padding-bottom: 5px;
+}
+.loginBtn{
+    border: 2px solid #FF724A;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color:#FF724A;
+    font-size: 16px;
+    background-color: white;
+}
+.loginBtn:hover{
+    background-color:#FF724A;
+    color: white;
+}
+/* navbar section design end */
+
+
+/* banner section design start */
+.banner{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.bannerDetails{
+    width: 36%;
+}
+.bannerTitle h1{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.493);
+}
+.bannerTitle span{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.659);
+}
+.bannerInfo{
+    margin-top: 20px;
+}
+.bannerInfo p{
+    font-size: 16px;
+    color: gray;
+}
+.btn{
+    border: 2px solid #FF724A;
+    border-radius: 5px;
+    padding: 25px 45px;
+    color:#FF724A;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn:hover{
+    background-color:#FF724A;
+    color: white;
+}
+
+.doctorPic{
+    width: 50%;
+}
+.doctorPic img{
+   width: 100%;
+   border-radius: 300px 0px 0px 300px;
+}
+/* banner section design end */
+
+/* service section design start */
+.services{
+   display: flex;
+   justify-content: center;
+}
+.card{
+   background-color: #FF724A;
+   color: white;
+   margin: 18px;
+   padding: 10px;
+   border-radius: 8px;
+   width: 18%;
+   text-align: center;
+}
+.card h4{
+  letter-spacing:0.1cm;
+  text-transform: uppercase;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.903);
+}
+.image{
+ width: 80px;
+ height: 80px;
+ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%)
+}
+
+.ReadMoreBtn{
+  background-color: white;
+  border: none;
+  padding: 8px 10px;
+  color:#FF724A;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 0px ;
+}
+/* /* service section design end */
+
+/* mission section design start */
+   .messionHeading{
+    font-size: 35px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.596);
+    margin-top: 100px;
+    margin-bottom: 50px;
+   }
+   .mission{
+      display: flex;
+      justify-content: center;
+      margin:30px;
+   }
+   .missionInfo{
+    width: 45%;
+
+   }
+   .circle{
+     display: flex;
+     justify-content: center;
+   }
+   .redCircle{
+      width: 55px;
+      height: 55px;
+      background-color: #FF724A;
+      border-radius: 50%;
+      margin-top: 20px;
+   }
+   .circleInfo{
+    margin-left: 25px;
+    color:rgba(128, 128, 128, 0.762);
+    line-height: 0.7cm;
+    font-style: italic;
+   }
+  .circleInfo h2{
+     font-style: normal;
+  }
+/* mission section design end */
